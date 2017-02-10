@@ -1,0 +1,2 @@
+Fiona==1.7.2
+Shapely==1.5.17.post1
