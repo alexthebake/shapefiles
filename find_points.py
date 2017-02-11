@@ -41,7 +41,7 @@ class PointFinder(object):
 
 def main():
   if len(sys.argv) < 2:
-    print "Usage: python find_points.py <shapefile_filename> <points_filename>"
+    print("Usage: python find_points.py <shapefile_filename> <points_filename>")
   pf = PointFinder(sys.argv[1], sys.argv[2])
   pf.check_all_points()
 
